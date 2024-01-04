@@ -1,0 +1,167 @@
+
+      /* ------------------ Barra de navegacion---------------------- */
+
+.navbar-carrito{
+    font-size: 30px;
+    font-weight: 900;
+    color:brown;
+    font-family: 'PT Serif', serif;
+}
+.navbar-carrito:hover{
+    color: #333;
+}
+
+.navbar-compra{
+    font-size: 30px;
+    font-weight:900;
+    font-family: 'PT Serif', serif;
+   
+}
+
+   /* ------------------------------compra page info ---------------------------- */
+
+.compra{
+    font-size: 36px;
+    font-weight:bold;
+    text-align: center;
+    font-family: "Playfair Display";
+  
+}
+.carrito{
+    background-color: #333;
+    border: none;
+}
+.carrito:hover{
+    background-color: white;
+    color: #333;
+    border: none;
+}
+.tarjeta{
+    display: flex;
+    border:2px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin: 50px;
+    max-width: 1200px;
+}
+.tarjeta:hover{
+    box-shadow: 0 0 1px 1px #333;
+    
+}
+.tarjeta-imagen{
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 7px;
+ 
+}
+.tarjeta-contenido{
+     flex: 1;
+ 
+
+}
+.tarjeta-titulo{
+    margin: 0 auto;
+    font-weight: 900;
+    text-align: left; 
+    font-family: Comic Sans MS; 
+    font-size: 30px;  
+  
+}
+
+
+.tarjeta-descripcion{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-family: "didot";
+
+}
+.tarjeta-precio{
+    font-size: 30px;
+   margin: 0 auto;
+   font-weight: bold;
+   text-align: center;
+    min-width: 10% ;
+   color: white;
+   background-color: #212F3C ;
+   border-radius: 10px;
+   cursor: pointer;
+  
+}
+
+                    /*------------------------- Los botones de agregar o quitar del carrito------------------------------  */
+.btn-agregar{
+    min-width: 200px;
+    height: 50px;
+    padding: 5px 10px;
+    border: none;
+    color: whitesmoke;
+    background-color: #17A589;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.btn-agregar:hover{
+    box-shadow: 0px 0px 0px 2px #117864 ;
+    background-color:#117864 ;
+    transition: .9;
+}
+
+.btn-quitar{
+    width: 200px;
+    height: 50px;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    background-color: #C0392B ;
+    border-radius: 10px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+.btn-quitar:hover{
+    box-shadow: 0px 0px 0px 2px rgb(142, 35, 35);
+    background-color: rgb(142, 35, 35);;
+}
+
+/* ------------------------------ BTN DE LA SECCION DEL CARRITO -------------------- */
+
+.article-compra{
+    text-align: center;
+    
+}
+
+.btn-carrito-compra{
+    color: whitesmoke;
+    border: none;
+    font-weight: 900;
+    margin-top: 50px;
+    border-radius: 7px;
+    width: 160px;
+    height: 40px;
+    background-color: #34495E ;
+}
+
+   /* -------------------- medias querry de boton de agrgar y quitar-------------------------- */
+
+   @media screen and (max-width: 587px){
+    .btn-agregar{
+    
+      align-items:center;
+      min-width: 10%;
+      
+     
+    }
+    
+   }
+    
+   /* -------------------------TOTAL---------------------------- */
+   .total{
+    font-weight: 900;
+    font-size: 20px;
+    color: #333;
+   }
